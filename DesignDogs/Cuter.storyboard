@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="m9R-qO-5tQ">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="4xL-R8-W32">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nbr-Ad-2MV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="m9R-qO-5tQ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="S06-hC-oIa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="1Js-O0-r5c" kind="relationship" relationship="rootViewController" id="ISF-Gw-3Wi"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-46" y="341"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="yOk-Rb-lLN">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p7R-pu-KFA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="Dl1-bl-e5v" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aNp-8U-7w4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-46" y="341"/>
+        </scene>
+        <!--Cute View Controller-->
+        <scene sceneID="m1w-Lx-rSd">
+            <objects>
+                <viewController id="1Js-O0-r5c" customClass="NMOCuteViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="V0s-yh-yG7"/>
+                        <viewControllerLayoutGuide type="bottom" id="4Pq-Ia-8C9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EVM-Ao-NHk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cuter_1" translatesAutoresizingMaskIntoConstraints="NO" id="AVP-u5-nQa">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OaB-Kf-G3G" customClass="NMOBubbleButton">
+                                <rect key="frame" x="264" y="507" width="73" height="73"/>
+                                <state key="normal" title="Moar Cute">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="1" green="0.061101189430000001" blue="0.074920409739999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                        <color key="value" red="0.29019609089999998" green="0.48235294220000002" blue="0.75294119120000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="strokeWidth">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="xPy-5d-9Sm" kind="show" id="mJS-fY-0tL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4Pq-Ia-8C9" firstAttribute="top" secondItem="AVP-u5-nQa" secondAttribute="bottom" id="1KJ-da-Xc2"/>
+                            <constraint firstItem="AVP-u5-nQa" firstAttribute="top" secondItem="EVM-Ao-NHk" secondAttribute="top" id="7ZA-9d-DqK"/>
+                            <constraint firstAttribute="centerX" secondItem="OaB-Kf-G3G" secondAttribute="centerX" id="FKt-M7-Z7A"/>
+                            <constraint firstItem="AVP-u5-nQa" firstAttribute="leading" secondItem="EVM-Ao-NHk" secondAttribute="leading" id="Q9B-j8-bre"/>
+                            <constraint firstAttribute="trailing" secondItem="AVP-u5-nQa" secondAttribute="trailing" id="Rv4-Xd-zqE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="AVP-u5-nQa" secondAttribute="trailing" id="UU0-RU-Uan"/>
+                            <constraint firstItem="4Pq-Ia-8C9" firstAttribute="top" secondItem="OaB-Kf-G3G" secondAttribute="bottom" constant="20" id="eh5-uf-pat"/>
+                            <constraint firstItem="AVP-u5-nQa" firstAttribute="leading" secondItem="EVM-Ao-NHk" secondAttribute="leadingMargin" id="lCb-pR-Hmb"/>
+                            <constraint firstItem="AVP-u5-nQa" firstAttribute="top" secondItem="EVM-Ao-NHk" secondAttribute="topMargin" id="mQy-7j-Xca"/>
+                            <constraint firstItem="4Pq-Ia-8C9" firstAttribute="top" secondItem="AVP-u5-nQa" secondAttribute="bottom" id="wJN-WX-XGA"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="UU0-RU-Uan"/>
+                                <exclude reference="lCb-pR-Hmb"/>
+                                <exclude reference="mQy-7j-Xca"/>
+                                <exclude reference="1KJ-da-Xc2"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="Yhi-JV-RRI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yQb-vy-JL7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="601" y="341"/>
+        </scene>
+        <!--Cute View Controller-->
+        <scene sceneID="FJx-2B-hhS">
+            <objects>
+                <viewController id="xPy-5d-9Sm" customClass="NMOCuteViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="faH-BI-oj6"/>
+                        <viewControllerLayoutGuide type="bottom" id="TiE-b0-69i"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IhR-Is-vzx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cuter_2" translatesAutoresizingMaskIntoConstraints="NO" id="fME-c2-vdd">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iPL-Dj-kif" customClass="NMOBubbleButton">
+                                <rect key="frame" x="264" y="507" width="73" height="73"/>
+                                <state key="normal" title="Moar Cute">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="1" green="0.061101189430000001" blue="0.074920409739999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                        <color key="value" red="0.29019609089999998" green="0.48235294220000002" blue="0.75294119120000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="strokeWidth">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="CDV-7Q-HqK" kind="show" id="a98-pa-cM8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TiE-b0-69i" firstAttribute="top" secondItem="fME-c2-vdd" secondAttribute="bottom" id="521-bd-ehO"/>
+                            <constraint firstItem="TiE-b0-69i" firstAttribute="top" secondItem="iPL-Dj-kif" secondAttribute="bottom" constant="20" id="BWb-IO-iRB"/>
+                            <constraint firstAttribute="centerX" secondItem="iPL-Dj-kif" secondAttribute="centerX" id="Bqy-i3-t7f"/>
+                            <constraint firstItem="fME-c2-vdd" firstAttribute="leading" secondItem="IhR-Is-vzx" secondAttribute="leadingMargin" id="HXq-j2-5fr"/>
+                            <constraint firstItem="TiE-b0-69i" firstAttribute="top" secondItem="fME-c2-vdd" secondAttribute="bottom" id="Sgb-X8-4Rh"/>
+                            <constraint firstItem="fME-c2-vdd" firstAttribute="leading" secondItem="IhR-Is-vzx" secondAttribute="leading" id="Ss1-mB-dLU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fME-c2-vdd" secondAttribute="trailing" id="XjB-1k-MBd"/>
+                            <constraint firstItem="fME-c2-vdd" firstAttribute="top" secondItem="IhR-Is-vzx" secondAttribute="topMargin" id="hX8-zV-cqL"/>
+                            <constraint firstAttribute="trailing" secondItem="fME-c2-vdd" secondAttribute="trailing" id="mZq-kQ-wFt"/>
+                            <constraint firstItem="fME-c2-vdd" firstAttribute="top" secondItem="IhR-Is-vzx" secondAttribute="top" id="zK9-zU-LMa"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="HXq-j2-5fr"/>
+                                <exclude reference="XjB-1k-MBd"/>
+                                <exclude reference="hX8-zV-cqL"/>
+                                <exclude reference="Sgb-X8-4Rh"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QCJ-sD-JUH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1225" y="341"/>
+        </scene>
+        <!--Cute View Controller-->
+        <scene sceneID="aGr-Iu-XLa">
+            <objects>
+                <viewController id="CDV-7Q-HqK" customClass="NMOCuteViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="r9V-BI-aa2"/>
+                        <viewControllerLayoutGuide type="bottom" id="GhC-UN-6iA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0mr-J7-Vls">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cuter_3" translatesAutoresizingMaskIntoConstraints="NO" id="H7U-bo-Xqe">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="paV-CA-mWi" customClass="NMOBubbleButton">
+                                <rect key="frame" x="264" y="507" width="73" height="73"/>
+                                <state key="normal" title="Moar Cute">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="1" green="0.061101189430000001" blue="0.074920409739999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                        <color key="value" red="0.29019609089999998" green="0.48235294220000002" blue="0.75294119120000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="strokeWidth">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="aJm-sO-4SW" kind="show" id="YsW-Ea-kqL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="H7U-bo-Xqe" secondAttribute="trailing" id="5cb-8h-tVt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="H7U-bo-Xqe" secondAttribute="trailing" id="Jb5-Hz-8OZ"/>
+                            <constraint firstAttribute="centerX" secondItem="paV-CA-mWi" secondAttribute="centerX" id="K3F-wu-5ht"/>
+                            <constraint firstItem="H7U-bo-Xqe" firstAttribute="top" secondItem="0mr-J7-Vls" secondAttribute="topMargin" id="Tfx-x1-sAg"/>
+                            <constraint firstItem="GhC-UN-6iA" firstAttribute="top" secondItem="paV-CA-mWi" secondAttribute="bottom" constant="20" id="Ulv-K6-9qS"/>
+                            <constraint firstItem="H7U-bo-Xqe" firstAttribute="top" secondItem="0mr-J7-Vls" secondAttribute="top" id="YHw-MT-q2T"/>
+                            <constraint firstItem="H7U-bo-Xqe" firstAttribute="leading" secondItem="0mr-J7-Vls" secondAttribute="leading" id="abU-ZY-y16"/>
+                            <constraint firstItem="H7U-bo-Xqe" firstAttribute="leading" secondItem="0mr-J7-Vls" secondAttribute="leadingMargin" id="dpe-bx-hly"/>
+                            <constraint firstItem="GhC-UN-6iA" firstAttribute="top" secondItem="H7U-bo-Xqe" secondAttribute="bottom" id="kTw-fJ-bvo"/>
+                            <constraint firstItem="GhC-UN-6iA" firstAttribute="top" secondItem="H7U-bo-Xqe" secondAttribute="bottom" id="oHu-sw-hV5"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Jb5-Hz-8OZ"/>
+                                <exclude reference="Tfx-x1-sAg"/>
+                                <exclude reference="dpe-bx-hly"/>
+                                <exclude reference="kTw-fJ-bvo"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sq2-9E-508" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1880" y="341"/>
+        </scene>
+        <!--Cute View Controller-->
+        <scene sceneID="ubY-Fn-i86">
+            <objects>
+                <viewController id="aJm-sO-4SW" customClass="NMOCuteViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rdu-cY-ikA"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xea-1N-kEv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MT7-hf-aNO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cuter_4" translatesAutoresizingMaskIntoConstraints="NO" id="4L1-kB-Ino">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jKa-hs-P0Y" customClass="NMOBubbleButton">
+                                <rect key="frame" x="264" y="507" width="73" height="73"/>
+                                <state key="normal" title="Moar Cute">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="1" green="0.061101189430000001" blue="0.074920409739999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                        <color key="value" red="0.29019609089999998" green="0.48235294220000002" blue="0.75294119120000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="strokeWidth">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="NrU-cH-HSp" kind="show" id="8Da-dE-SOP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="4L1-kB-Ino" secondAttribute="trailing" id="5aV-93-gyN"/>
+                            <constraint firstItem="Xea-1N-kEv" firstAttribute="top" secondItem="4L1-kB-Ino" secondAttribute="bottom" id="87L-eU-7DB"/>
+                            <constraint firstItem="4L1-kB-Ino" firstAttribute="top" secondItem="MT7-hf-aNO" secondAttribute="top" id="LZX-8P-CeK"/>
+                            <constraint firstItem="4L1-kB-Ino" firstAttribute="top" secondItem="MT7-hf-aNO" secondAttribute="topMargin" id="Mu2-Ou-Yet"/>
+                            <constraint firstAttribute="trailing" secondItem="4L1-kB-Ino" secondAttribute="trailing" id="YhH-nM-y3Z"/>
+                            <constraint firstItem="Xea-1N-kEv" firstAttribute="top" secondItem="4L1-kB-Ino" secondAttribute="bottom" id="ZG1-rG-fyo"/>
+                            <constraint firstItem="4L1-kB-Ino" firstAttribute="leading" secondItem="MT7-hf-aNO" secondAttribute="leadingMargin" id="bYU-7O-Db6"/>
+                            <constraint firstAttribute="centerX" secondItem="jKa-hs-P0Y" secondAttribute="centerX" id="dmi-5A-uZw"/>
+                            <constraint firstItem="Xea-1N-kEv" firstAttribute="top" secondItem="jKa-hs-P0Y" secondAttribute="bottom" constant="20" id="gEP-XV-510"/>
+                            <constraint firstItem="4L1-kB-Ino" firstAttribute="leading" secondItem="MT7-hf-aNO" secondAttribute="leading" id="qlz-Cv-BNj"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5aV-93-gyN"/>
+                                <exclude reference="Mu2-Ou-Yet"/>
+                                <exclude reference="bYU-7O-Db6"/>
+                                <exclude reference="87L-eU-7DB"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7eh-ld-dJj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2523" y="341"/>
+        </scene>
+        <!--Cute View Controller-->
+        <scene sceneID="gzz-cE-jKW">
+            <objects>
+                <viewController id="NrU-cH-HSp" customClass="NMOCuteViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nZb-jc-GKS"/>
+                        <viewControllerLayoutGuide type="bottom" id="lLH-bc-1yr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8F5-8J-YXX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cuter_5" translatesAutoresizingMaskIntoConstraints="NO" id="Eua-FT-8xv">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qvc-T8-saw" customClass="NMOBubbleButton">
+                                <rect key="frame" x="264" y="507" width="73" height="73"/>
+                                <state key="normal" title="Moar Cute">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="1" green="0.061101189430000001" blue="0.074920409739999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                        <color key="value" red="0.29019609089999998" green="0.48235294220000002" blue="0.75294119120000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="strokeWidth">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="dismiss:" destination="NrU-cH-HSp" eventType="touchUpInside" id="zSH-by-z9K"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Eua-FT-8xv" firstAttribute="leading" secondItem="8F5-8J-YXX" secondAttribute="leadingMargin" id="JFB-z0-1xW"/>
+                            <constraint firstItem="Eua-FT-8xv" firstAttribute="leading" secondItem="8F5-8J-YXX" secondAttribute="leading" id="MuS-Bo-hjs"/>
+                            <constraint firstItem="Eua-FT-8xv" firstAttribute="top" secondItem="8F5-8J-YXX" secondAttribute="topMargin" id="QuG-QF-RCY"/>
+                            <constraint firstItem="lLH-bc-1yr" firstAttribute="top" secondItem="Eua-FT-8xv" secondAttribute="bottom" id="ZNo-Nr-E2g"/>
+                            <constraint firstItem="lLH-bc-1yr" firstAttribute="top" secondItem="Eua-FT-8xv" secondAttribute="bottom" id="fpS-9H-RwW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Eua-FT-8xv" secondAttribute="trailing" id="oYd-wg-Y1v"/>
+                            <constraint firstAttribute="trailing" secondItem="Eua-FT-8xv" secondAttribute="trailing" id="z1I-c3-P4g"/>
+                            <constraint firstItem="Eua-FT-8xv" firstAttribute="top" secondItem="8F5-8J-YXX" secondAttribute="top" id="zcT-tq-EM0"/>
+                            <constraint firstAttribute="centerX" secondItem="Qvc-T8-saw" secondAttribute="centerX" id="zjD-7c-EMB"/>
+                            <constraint firstItem="lLH-bc-1yr" firstAttribute="top" secondItem="Qvc-T8-saw" secondAttribute="bottom" constant="20" id="zwK-rI-bEA"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="JFB-z0-1xW"/>
+                                <exclude reference="QuG-QF-RCY"/>
+                                <exclude reference="oYd-wg-Y1v"/>
+                                <exclude reference="ZNo-Nr-E2g"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XpB-1V-G7v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3160" y="341"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Cuter_1" width="1362" height="1362"/>
+        <image name="Cuter_2" width="1224" height="1224"/>
+        <image name="Cuter_3" width="1224" height="1224"/>
+        <image name="Cuter_4" width="942" height="942"/>
+        <image name="Cuter_5" width="832" height="832"/>
+    </resources>
+</document>
