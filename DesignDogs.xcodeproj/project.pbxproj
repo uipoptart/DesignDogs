@@ -36,20 +36,20 @@
 		760AA2A71AFB1DF6009FD53E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		760AA2A91AFB1DF6009FD53E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		760AA2AA1AFB1DF6009FD53E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		760AA2AC1AFB1DF6009FD53E /* NMOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NMOViewController.h; sourceTree = "<group>"; };
-		760AA2AD1AFB1DF6009FD53E /* NMOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NMOViewController.m; sourceTree = "<group>"; };
+		760AA2AC1AFB1DF6009FD53E /* NMOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NMOViewController.h; path = ../NMOViewController.h; sourceTree = "<group>"; };
+		760AA2AD1AFB1DF6009FD53E /* NMOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NMOViewController.m; path = ../NMOViewController.m; sourceTree = "<group>"; };
 		760AA2B01AFB1DF6009FD53E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		760AA2B21AFB1DF6009FD53E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		760AA2B51AFB1DF6009FD53E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		760AA2BB1AFB1DF7009FD53E /* DesignDogsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignDogsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		760AA2C01AFB1DF7009FD53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		760AA2C11AFB1DF7009FD53E /* DesignDogsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignDogsTests.m; sourceTree = "<group>"; };
-		7677C2971AFB1F1D00981A12 /* NMOBubbleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMOBubbleButton.h; sourceTree = "<group>"; };
-		7677C2981AFB1F1D00981A12 /* NMOBubbleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMOBubbleButton.m; sourceTree = "<group>"; };
-		7677C29A1AFBD78C00981A12 /* Cute.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Cute.storyboard; sourceTree = "<group>"; };
-		7677C2A01AFBE1A900981A12 /* NMOCuteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMOCuteViewController.h; sourceTree = "<group>"; };
-		7677C2A11AFBE1A900981A12 /* NMOCuteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMOCuteViewController.m; sourceTree = "<group>"; };
-		7677C2A31AFBE2FD00981A12 /* Cuter.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Cuter.storyboard; sourceTree = "<group>"; };
+		7677C2971AFB1F1D00981A12 /* NMOBubbleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NMOBubbleButton.h; path = ../NMOBubbleButton.h; sourceTree = "<group>"; };
+		7677C2981AFB1F1D00981A12 /* NMOBubbleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NMOBubbleButton.m; path = ../NMOBubbleButton.m; sourceTree = "<group>"; };
+		7677C29A1AFBD78C00981A12 /* Cute.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Cute.storyboard; path = ../Cute.storyboard; sourceTree = "<group>"; };
+		7677C2A01AFBE1A900981A12 /* NMOCuteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NMOCuteViewController.h; path = ../NMOCuteViewController.h; sourceTree = "<group>"; };
+		7677C2A11AFBE1A900981A12 /* NMOCuteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NMOCuteViewController.m; path = ../NMOCuteViewController.m; sourceTree = "<group>"; };
+		7677C2A31AFBE2FD00981A12 /* Cuter.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Cuter.storyboard; path = ../Cuter.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,15 +93,9 @@
 			children = (
 				760AA2A91AFB1DF6009FD53E /* AppDelegate.h */,
 				760AA2AA1AFB1DF6009FD53E /* AppDelegate.m */,
-				760AA2AC1AFB1DF6009FD53E /* NMOViewController.h */,
-				760AA2AD1AFB1DF6009FD53E /* NMOViewController.m */,
-				7677C2A01AFBE1A900981A12 /* NMOCuteViewController.h */,
-				7677C2A11AFBE1A900981A12 /* NMOCuteViewController.m */,
-				7677C2971AFB1F1D00981A12 /* NMOBubbleButton.h */,
-				7677C2981AFB1F1D00981A12 /* NMOBubbleButton.m */,
-				760AA2AF1AFB1DF6009FD53E /* Main.storyboard */,
-				7677C29A1AFBD78C00981A12 /* Cute.storyboard */,
-				7677C2A31AFBE2FD00981A12 /* Cuter.storyboard */,
+				7677C2A71AFBEC0200981A12 /* Views */,
+				7677C2A61AFBEBE100981A12 /* View Controllers */,
+				7677C2A51AFBEBB800981A12 /* Storyboards */,
 				760AA2B21AFB1DF6009FD53E /* Images.xcassets */,
 				760AA2B41AFB1DF6009FD53E /* LaunchScreen.xib */,
 				760AA2A51AFB1DF6009FD53E /* Supporting Files */,
@@ -133,6 +127,39 @@
 				760AA2C01AFB1DF7009FD53E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7677C2A51AFBEBB800981A12 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				760AA2AF1AFB1DF6009FD53E /* Main.storyboard */,
+				7677C29A1AFBD78C00981A12 /* Cute.storyboard */,
+				7677C2A31AFBE2FD00981A12 /* Cuter.storyboard */,
+			);
+			name = Storyboards;
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		7677C2A61AFBEBE100981A12 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				760AA2AC1AFB1DF6009FD53E /* NMOViewController.h */,
+				760AA2AD1AFB1DF6009FD53E /* NMOViewController.m */,
+				7677C2A01AFBE1A900981A12 /* NMOCuteViewController.h */,
+				7677C2A11AFBE1A900981A12 /* NMOCuteViewController.m */,
+			);
+			name = "View Controllers";
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7677C2A71AFBEC0200981A12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7677C2971AFB1F1D00981A12 /* NMOBubbleButton.h */,
+				7677C2981AFB1F1D00981A12 /* NMOBubbleButton.m */,
+			);
+			name = Views;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +297,7 @@
 				760AA2B01AFB1DF6009FD53E /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		760AA2B41AFB1DF6009FD53E /* LaunchScreen.xib */ = {
