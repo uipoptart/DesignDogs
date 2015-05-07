@@ -14,6 +14,7 @@
 		760AA2B31AFB1DF6009FD53E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 760AA2B21AFB1DF6009FD53E /* Images.xcassets */; };
 		760AA2B61AFB1DF6009FD53E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 760AA2B41AFB1DF6009FD53E /* LaunchScreen.xib */; };
 		760AA2C21AFB1DF7009FD53E /* DesignDogsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 760AA2C11AFB1DF7009FD53E /* DesignDogsTests.m */; };
+		7677C2991AFB1F1D00981A12 /* NMOBubbleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7677C2981AFB1F1D00981A12 /* NMOBubbleButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		760AA2BB1AFB1DF7009FD53E /* DesignDogsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignDogsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		760AA2C01AFB1DF7009FD53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		760AA2C11AFB1DF7009FD53E /* DesignDogsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignDogsTests.m; sourceTree = "<group>"; };
+		7677C2971AFB1F1D00981A12 /* NMOBubbleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMOBubbleButton.h; sourceTree = "<group>"; };
+		7677C2981AFB1F1D00981A12 /* NMOBubbleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMOBubbleButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				760AA2AA1AFB1DF6009FD53E /* AppDelegate.m */,
 				760AA2AC1AFB1DF6009FD53E /* NMOViewController.h */,
 				760AA2AD1AFB1DF6009FD53E /* NMOViewController.m */,
+				7677C2971AFB1F1D00981A12 /* NMOBubbleButton.h */,
+				7677C2981AFB1F1D00981A12 /* NMOBubbleButton.m */,
 				760AA2AF1AFB1DF6009FD53E /* Main.storyboard */,
 				760AA2B21AFB1DF6009FD53E /* Images.xcassets */,
 				760AA2B41AFB1DF6009FD53E /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				760AA2AE1AFB1DF6009FD53E /* NMOViewController.m in Sources */,
 				760AA2AB1AFB1DF6009FD53E /* AppDelegate.m in Sources */,
+				7677C2991AFB1F1D00981A12 /* NMOBubbleButton.m in Sources */,
 				760AA2A81AFB1DF6009FD53E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
