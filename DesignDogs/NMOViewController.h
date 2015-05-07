@@ -2,8 +2,10 @@
 //  Copyright (c) 2015 Osten Engineering. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import <UIKit/UIKit.h>
 
-@implementation AppDelegate
+@interface NMOViewController : UIViewController
+
 
 @end
+

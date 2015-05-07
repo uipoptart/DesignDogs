@@ -2,8 +2,8 @@
 //  Copyright (c) 2015 Osten Engineering. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "NMOViewController.h"
 
-@implementation AppDelegate
+@implementation NMOViewController
 
 @end
